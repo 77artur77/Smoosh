@@ -9,13 +9,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Controller.FinishActivity"></activity>
+        <activity
+            android:name=".SkillActivityy"
+            android:label="@string/title_activity_skill_activityy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Controller.SkillsActivity"
+            android:label="@string/title_activity_skills"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SkillActivity"
+            android:label="@string/title_activity_skill"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Controller.BaseActivity"
+            android:label="@string/title_activity_base"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Controller.LeagueActivity" />
+        <activity android:name=".Controller.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
