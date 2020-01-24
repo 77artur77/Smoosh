@@ -18,7 +18,7 @@ class LeagueActivity : BaseActivity() {
     fun onMensClicked(view: View) {
         womensLeagueBtn.isChecked = false
         coedLeaugeBtn.isChecked = false
-        selectedLeague = "mens"
+        selectedLeague = "Mens"
     }
     fun onWomensClicked(view: View) {
         mensLeagueBtn.isChecked = false
