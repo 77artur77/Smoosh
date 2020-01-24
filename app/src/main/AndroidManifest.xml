@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Controller.FinishActivity"></activity>
+        <activity android:name=".Controller.Main2Activity"></activity>
+        <activity android:name=".Controller.FinishActivity" />
         <activity
             android:name=".SkillActivityy"
             android:label="@string/title_activity_skill_activityy"
