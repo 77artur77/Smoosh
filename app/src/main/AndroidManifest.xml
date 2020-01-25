@@ -4,25 +4,15 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/swooshlauncher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Controller.ss"></activity>
-        <activity android:name=".Controller.Main2Activity" />
         <activity android:name=".Controller.FinishActivity" />
-        <activity
-            android:name=".SkillActivityy"
-            android:label="@string/title_activity_skill_activityy"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Controller.SkillsActivity"
             android:label="@string/title_activity_skills"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".SkillActivity"
-            android:label="@string/title_activity_skill"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Controller.BaseActivity"
